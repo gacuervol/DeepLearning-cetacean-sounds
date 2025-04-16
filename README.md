@@ -15,7 +15,6 @@
 ✅ Processed **15,563 audio samples** with imbalanced classes  
 ✅ Implemented end-to-end pipeline from raw audio to predictions  
 
----
 
 ## 🛠️ Technical Stack  
 ```python
@@ -49,7 +48,6 @@ model = Sequential([
 ✔ **Generalization**: Leverages YAMNet's pre-trained acoustic patterns  
 ✔ **Data Efficiency**: Embeddings reduce need for massive datasets  
 
----
 
 ## 📊 **Performance Metrics**  
 ### 1. Classification Report (Test Set)  
@@ -67,7 +65,6 @@ model = Sequential([
 ![Loss Curves](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/training_plot.png)
 *Early stopping at epoch 130 (val_loss=0.1243)*  
 
---- 
 
 ## 📂 Repository Structure  
 ```text
@@ -85,7 +82,6 @@ model = Sequential([
 ├── training_plot.png           
 ├── tsne.png 
 ```
----
 
 ## 🚀 How to Use  
 ### 1. Install dependencies:  
@@ -98,7 +94,6 @@ pip install -r requirements.txt  # Includes TensorFlow, Librosa, Noisereduce
 from inference import predict_species
 probabilities = predict_species("dolphin.wav")  # Returns class probabilities
 ```
----
 
 ## 🧠 Key Technical Challenges  
 - **Audio Variability**: Solved with spectral noise reduction (`noisereduce` library)  
@@ -110,7 +105,6 @@ probabilities = predict_species("dolphin.wav")  # Returns class probabilities
 - Bioacoustics: Migration pattern analysis  
 - Oceanography: Anthropogenic noise impact studies
   
----
 
 ## 🔗 Connect  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Giovanny_Cuervo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/giovanny-alejandro-cuervo-londo%C3%B1o-b446ab23b/)  
