@@ -56,11 +56,11 @@ model = Sequential([
 | Avg Recall      | 97.2%  |  
 
 ### 2. t-SNE Visualization  
-![t-SNE Plot](https://github.com/.../tsne.png)  
+![t-SNE Plot](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/tsne.png)
 *Clear clustering of acoustically similar species*  
 
 ### 3. Training Dynamics  
-![Loss Curves](https://github.com/.../training_plot.png)  
+![Loss Curves](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/training_plot.png)
 *Early stopping at epoch 15 (val_loss=1.446)*  
 
 ## 📂 Repository Structure  
