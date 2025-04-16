@@ -15,6 +15,8 @@
 ✅ Processed **15,563 audio samples** with imbalanced classes  
 ✅ Implemented end-to-end pipeline from raw audio to predictions  
 
+---
+
 ## 🛠️ Technical Stack  
 ```python
 # Core Architecture
@@ -47,6 +49,8 @@ model = Sequential([
 ✔ **Generalization**: Leverages YAMNet's pre-trained acoustic patterns  
 ✔ **Data Efficiency**: Embeddings reduce need for massive datasets  
 
+---
+
 ## 📊 **Performance Metrics**  
 ### 1. Classification Report (Test Set)  
 | Metric          | Value  |  
@@ -61,21 +65,27 @@ model = Sequential([
 
 ### 3. Training Dynamics  
 ![Loss Curves](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/training_plot.png)
-*Early stopping at epoch 15 (val_loss=1.446)*  
+*Early stopping at epoch 130 (val_loss=0.1243)*  
+
+--- 
 
 ## 📂 Repository Structure  
 ```text
-/data
-├── raw/                  # Original WAV files
-├── processed/            # Cleaned audio samples
-/notebooks
-├── 1_data_preprocessing.ipynb
-├── 2_feature_extraction.ipynb  
-├── 3_model_training.ipynb
-/models
-├── yamnet/               # TF-Hub model
-├── classifier_weights.h5 # Trained weights
+/Data
+├── df_audios.csv              
+/Notebooks
+├── 1_business_data_load.ipynb
+├── 2_exploratory_data_analysis.ipynb
+├── 3_experimental_set_up.ipynb
+├── 4_modeling.ipynb
+├── Filtered_signal.ipynb
+├── Harmonic-Percusiv.ipynb
+├── Proyecto_Final.ipynb
+/figures
+├── training_plot.png           
+├── tsne.png 
 ```
+---
 
 ## 🚀 How to Use  
 ### 1. Install dependencies:  
@@ -88,6 +98,7 @@ pip install -r requirements.txt  # Includes TensorFlow, Librosa, Noisereduce
 from inference import predict_species
 probabilities = predict_species("dolphin.wav")  # Returns class probabilities
 ```
+---
 
 ## 🧠 Key Technical Challenges  
 - **Audio Variability**: Solved with spectral noise reduction (`noisereduce` library)  
@@ -97,7 +108,9 @@ probabilities = predict_species("dolphin.wav")  # Returns class probabilities
 ## 📜 Research Applications  
 - Marine Conservation: Endangered species monitoring  
 - Bioacoustics: Migration pattern analysis  
-- Oceanography: Anthropogenic noise impact studies  
+- Oceanography: Anthropogenic noise impact studies
+  
+---
 
 ## 🔗 Connect  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Giovanny_Cuervo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/giovanny-alejandro-cuervo-londo%C3%B1o-b446ab23b/)  
