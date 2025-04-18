@@ -57,11 +57,15 @@ model = Sequential([
 | Macro F1-Score  | 97.4%  |  
 | Avg Recall      | 97.2%  |  
 
-### 2. t-SNE Visualization  
+### 2. Processing Pipeline
+![pipeline](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/pipeline.png)
+*Illustrating the distinct stages of the cetacean vocalization recognition pipeline.*
+
+### 3. t-SNE Visualization  
 ![t-SNE Plot](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/tsne.png)
 *Clear clustering of acoustically similar species*  
 
-### 3. Training Dynamics  
+### 4. Training Dynamics  
 ![Loss Curves](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/training_plot.png)
 *Early stopping at epoch 130 (val_loss=0.1243)*  
 
